@@ -1,0 +1,9 @@
+name: Existing CI
+'on': [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  existing:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo 'Existing CI is preserved.'
