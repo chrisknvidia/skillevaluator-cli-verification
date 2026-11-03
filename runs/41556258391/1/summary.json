@@ -1,0 +1,56 @@
+{
+  "total": 1,
+  "passed": 1,
+  "failed": 0,
+  "incomplete": 0,
+  "overall_passed": true,
+  "overall_status": "passed",
+  "total_validators": 12,
+  "total_errors": 0,
+  "total_warnings": 4,
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 0
+  },
+  "skills": [
+    {
+      "path": "sandbox-skills/evidence-table",
+      "report_dir": "skill-001",
+      "exit_code": 0,
+      "overall_status": "passed",
+      "incomplete_scans": [],
+      "passed": true,
+      "total_validators": 12,
+      "total_errors": 0,
+      "total_warnings": 4,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    }
+  ],
+  "selection": {
+    "mode": "changed",
+    "base": "0ae365059d8efeb38034b708b2f4a0bdd3a65331",
+    "base_ref": "0ae365059d8efeb38034b708b2f4a0bdd3a65331",
+    "head": "baa0187f31c52aa69535ff474462840673648905",
+    "discovered": 2,
+    "selected": [
+      "sandbox-skills/evidence-table"
+    ],
+    "deleted": [],
+    "changed_files": 1
+  },
+  "execution": {
+    "run_url": "https://github.com/chrisknvidia/skillevaluator-cli-verification/actions/runs/41556258391",
+    "commit": "baa0187f31c52aa69535ff474462840673648905",
+    "image": "ghcr.io/nvidia/skillevaluator-tier1@sha256:c75c826f0e52d6c9a8d303ad7eefd606ed86e6940123f42b4eda2457863bcee7",
+    "report_url": "https://chrisknvidia.github.io/skillevaluator-cli-verification/runs/41556258391/1/",
+    "llm_enabled": false,
+    "workflow_sha": "80c7958f14da06801b9ff4f4841f72fef8cd81fd"
+  }
+}

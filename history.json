@@ -1,5 +1,18 @@
 [
   {
+    "run_id": 41556258391,
+    "run_attempt": 1,
+    "head_sha": "baa0187f31c52aa69535ff474462840673648905",
+    "artifact_id": 13194297673,
+    "run_url": "https://github.com/chrisknvidia/skillevaluator-cli-verification/actions/runs/41556258391",
+    "report_url": "https://chrisknvidia.github.io/skillevaluator-cli-verification/runs/41556258391/1/",
+    "overall_status": "passed",
+    "ci_conclusion": "success",
+    "event": "pull_request",
+    "trusted_evaluator_sha": "e4cda13a85f34fa7a112b3529feaf24cfe587caf",
+    "image": "ghcr.io/nvidia/skillevaluator-tier1@sha256:c75c826f0e52d6c9a8d303ad7eefd606ed86e6940123f42b4eda2457863bcee7"
+  },
+  {
     "run_id": 41556227466,
     "run_attempt": 1,
     "head_sha": "0ae365059d8efeb38034b708b2f4a0bdd3a65331",
